@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\github-workbench"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "wwd130"
+	}
+}
