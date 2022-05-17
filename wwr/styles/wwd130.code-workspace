@@ -8,6 +8,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "wwd130"
+		"liveServer.settings.multiRootWorkspaceName": "wwd130",
+		"liveServer.settings.port": 5501
 	}
 }
