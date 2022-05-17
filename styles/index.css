@@ -1,17 +1,28 @@
 body {
     background-color: #396E94;
 }
-h1{
+
+h1 {
     color: white;
+    text-align: center;
 }
-p{
+
+p {
     color: white;
+    text-align: center;
 }
-nav a{
+
+nav a {
     color: white;
     background-color: #006FFF;
-padding: 25px;
+    padding: 25px;
+    text-align: center;
 }
-nav{
+
+nav {
     padding: 10px;
+    margin: 0 auto;
+    text-align: center;
 }
+
+body {}
