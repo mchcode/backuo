@@ -5,11 +5,13 @@ body {
 h1 {
     color: white;
     text-align: center;
+    margin: 20px;
 }
 
 p {
     color: white;
     text-align: center;
+    margin: 40px;
 }
 
 nav a {
@@ -17,12 +19,17 @@ nav a {
     background-color: #006FFF;
     padding: 25px;
     text-align: center;
+    margin: 2px;
+    text-decoration: none;
 }
 
 nav {
     padding: 10px;
-    margin: 0 auto;
+    margin: 30px auto;
     text-align: center;
 }
 
-body {}
+nav a:hover {
+    color: #006FFF;
+    background-color: white;
+}
