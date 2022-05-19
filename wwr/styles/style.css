@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&family=Raleway:wght@500&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,6 +7,10 @@
 
 body {
     background-color: white;
+    font-family: "Noto Sans Display", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -25,6 +31,12 @@ nav a:hover {
 
 .home-title {
     color: #A84C11;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 2em; 
+}
+
+h2 {
+    margin: 0;
 }
 
 h4 {
@@ -55,6 +67,10 @@ main section {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 120px;
 }
@@ -69,6 +85,7 @@ main section {
     color: white;
     background-color: #A84C11;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .book:hover {
@@ -78,20 +95,24 @@ main section {
 
 .msg {
     background-color: #396E94;
+    line-height: 1.5em;
 }
 
 .msg h2 {
     color: #B39C12;
+    font-family: Raleway, Arial, sans-serif; 
 }
 
 .msg p {
     color: white;
+    font-size: .8em;
 }
 
 .join {
     color: white;
     background-color: #396E94;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .join:hover {
