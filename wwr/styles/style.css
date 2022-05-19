@@ -22,6 +22,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -32,7 +33,8 @@ nav a:hover {
 .home-title {
     color: #A84C11;
     font-family: Raleway, Arial, sans-serif;
-    font-size: 2em; 
+    font-size: 2em;
+    margin-top: 10px; 
 }
 
 h2 {
@@ -72,12 +74,27 @@ main section {
 }
 
 .icon {
-    width: 120px;
+    padding-top: 10px;
 }
+
+.card-img {
+    border: 10px sold black;
+}
+
+.rivers-card {
+    margin: 200px 0; 
+} 
+.camping-card {
+    margin: 200px 0;
+} 
+.rapids-card {
+    margin: 200px 0;
+}  
+
 
 #background {
     height: 725px;
-    background-color: #f4a460
+    background-color: #f4a460;
 }
 
 
@@ -86,6 +103,9 @@ main section {
     background-color: #A84C11;
     text-decoration: none;
     font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -96,33 +116,40 @@ main section {
 .msg {
     background-color: #396E94;
     line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
-    color: #B39C12;
+    color: white;
     font-family: Raleway, Arial, sans-serif; 
 }
 
 .msg p {
     color: white;
     font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .join {
     color: white;
-    background-color: #396E94;
+    background-color: #A84C11;
     text-decoration: none;
     font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover {
-    color: #396E94;
+    color: #A84C11;
     background-color: white;
 }
 
 footer {
     color: white;
     background-color: #006FFF;
+    padding: 25px 50px;
+    margin-top: 200px 0;
 }
 
 footer h3 {
@@ -141,4 +168,8 @@ footer a {
 footer a:hover {
     background-color: white;
     color: #A84C11;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
