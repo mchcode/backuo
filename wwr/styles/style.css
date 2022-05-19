@@ -34,7 +34,7 @@ nav a:hover {
     color: #A84C11;
     font-family: Raleway, Arial, sans-serif;
     font-size: 2em;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
 h2 {
@@ -65,6 +65,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 .logo {
     width: 80px;
 }
@@ -78,18 +82,20 @@ main section {
 }
 
 .card-img {
-    border: 10px sold black;
+    border: 10px solid #A84C11;
 }
 
 .rivers-card {
-    margin: 200px 0; 
-} 
+    margin: 200px 0;
+}
+
 .camping-card {
     margin: 200px 0;
-} 
+}
+
 .rapids-card {
     margin: 200px 0;
-}  
+}
 
 
 #background {
@@ -121,7 +127,7 @@ main section {
 
 .msg h2 {
     color: white;
-    font-family: Raleway, Arial, sans-serif; 
+    font-family: Raleway, Arial, sans-serif;
 }
 
 .msg p {
