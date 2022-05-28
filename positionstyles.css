@@ -160,14 +160,14 @@
 }
 
 .red5 {
-  width: 800px;
-  height: 100px;
-  background-color: black;
+  width: 700px;
+  height: 75px;
+  background-color: red;
 }
 
 .green5 {
-  width: 200px;
-  height: 200px;
+  width: 175px;
+  height: 175px;
   background-color: green;
 }
 
@@ -176,14 +176,14 @@
 }
 
 .yellow5 {
-  width: 800px;
+  width: 700px;
   height: 280px;
   background-color: gold;
 }
 
 .blue5 {
-  width: 800px;
-  height: 100px;
+  width: 700px;
+  height: 75px;
   background-color: blue;
 }
 
