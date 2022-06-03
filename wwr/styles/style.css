@@ -16,9 +16,6 @@ body {
 header {
     display: grid;
     grid-template-columns: 150px auto;
-}
-
-header {
     color: white;
     background-color: #006FFF;
     opacity: .88;
@@ -95,7 +92,7 @@ h4 {
 
 main {
     display: grid;
-    grid-template-columns: repeat (10, 1fr);
+    grid-template-columns: repeat(10, 1fr) ;
 }
 
 main section {
@@ -106,14 +103,15 @@ main section img {
     box-sizing: border-box;
 }
 
-#logo_link {
-    padding-top: 5px;
+
+#logo-link {
     justify-self: center;
     align-self: center;
 }
 
 .logo {
     width: 80px;
+    padding-top: 5px;
 }
 
 .icon {
