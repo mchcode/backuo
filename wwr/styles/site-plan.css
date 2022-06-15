@@ -76,12 +76,12 @@ header {
     padding: 1em;
     text-align: center;
     color: white;
-    background-color: #006FFF;
+    background-color: #396E94;
 }
 
 header>h1,
 header>h2 {
-    color: #A84C11;
+    color: white;
 }
 
 p {
