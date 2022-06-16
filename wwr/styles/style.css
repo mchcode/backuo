@@ -251,19 +251,18 @@ footer .social img {
     font-size: 2em;
     margin-top: 10px;
 }
-
+/*
 h2 {
     margin: 0;
-}
-
+} */
+/*
 h4 {
     color: #A84C11;
-}
+} */
 
 #hero2 {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-
 }
 
 #hero2-box {
@@ -271,11 +270,7 @@ h4 {
     grid-row: 1/3;
 }
 
-#hero2-msg {
-    grid-column: 2/3;
-    grid-row: 5/6;
 
-}
 
 #hero2-img {
     width: 100%;
@@ -285,7 +280,10 @@ h4 {
     text-align: center;
     color: #f4a460;
 }
-
+#hero2-msg {
+    grid-column: 2/3;
+    grid-row: 56/6;
+}
 
 
 
