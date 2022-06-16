@@ -79,11 +79,13 @@ h4 {
 #hero-msg h1 {
     text-align: center;
     color: #f4a460;
+    padding-top: 30px;
 }
 
 #hero-msg h4 {
     text-align: center;
-    color: #f4a460
+    color: #f4a460;
+    margin-top: -20px;
 }
 
 .button-box {
@@ -282,7 +284,8 @@ h4 {
 }
 #hero2-msg {
     grid-column: 2/3;
-    grid-row: 56/6;
+    grid-row: 3/4;
+    padding-bottom: 5px;
 }
 
 
