@@ -326,30 +326,36 @@ main section img {
 
 .wild-card2 {
     margin: 1px 0;
-    grid-column: 3/4;
+    grid-column: 4/5;
     grid-row: 1/2;
 }
 
 .lunch-card2 {
     margin: 1px 0;
     grid-column:2/3 ;
-    grid-row: 3/4;
+    grid-row: 5/6;
+    padding-top: 60px;
+    padding-left: 30px;
 }
 
 .cabins-card2 {
     margin: 1px 0;
     grid-column: 3/4;
-    grid-row: 3/4;
+    grid-row: 5/6;
+    padding-top: 60px;
+    padding-left: 20px;
 }
 
 .canyon-card2 {
     margin: 1px 0;
     grid-column: 4/5;
-    grid-row: 3/4;
+    grid-row: 5/6;
+    padding-top: 60px;
+    padding-left: 10px;
 }
 
 #background2 {
-    height:600px;
+    height:500px;
     background-color: #396E94;
     grid-column: 1/11;
     grid-row: 4/9;
@@ -357,12 +363,12 @@ main section img {
 }
 
 .msg2 {
-    height: 300px;
+    height: 249px;
     background-color: #396E94;
     line-height: 1.5em;
-    padding: 35px;
-    grid-column: 2/3;
-    grid-row: 6/7;
+    padding:20px;
+    grid-column: 3/4;
+    grid-row: 1/2;
     box-shadow: 5px 5px 10px #6f7364;
 }
 
@@ -373,11 +379,20 @@ main section img {
 
 .msg2 p {
     color: white;
-    font-size: 25px;
+    font-size: 22px;
     padding-bottom: 15px;
 }
 
-.msg3
+.msg3 {
+    grid-column:2/5;
+    grid-row: 8/9;
+}
+
+.msg3 p {
+    color: white;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
 
 .book2 {
     color: white;
