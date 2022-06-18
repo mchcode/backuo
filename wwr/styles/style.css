@@ -79,13 +79,13 @@ h4 {
 
 #hero-msg h1 {
     text-align: center;
-    color: #f4a460;
+    color: white;
     padding-top: 30px;
 }
 
 #hero-msg h4 {
     text-align: center;
-    color: #f4a460;
+    color: white;
     margin-top: -20px;
     font-size: 25px;
 }
@@ -253,8 +253,8 @@ footer .social img {
     padding-top: 15px;
 }
 
-/* About Us xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-*/
+/* About Us xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
 #content {
     max-width: 1200px;
     margin: 0 auto;
@@ -266,6 +266,9 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
+}
+h1 {
+    color: white;
 }
 
 h2 {
@@ -369,8 +372,6 @@ main section img {
     background-color: #396E94;
     grid-column: 1/11;
     grid-row:5/9;
-
-
     z-index: -1;
 }
 
@@ -427,11 +428,37 @@ main section img {
     background-color: white;
 }
 
+/* Contact Us xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.msg4 {
+    background-color: #396E94;
+    height:265px;
+    line-height: 2em;
+    margin-top: -230px;
+    margin-right: 40px;
+    grid-column: 7/11;
+    grid-row: 2/3;
+}
+.msg4 h1 {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: -30px;
+    font-size: 35px;
+}
+
+.msg4 h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.msg4 h3 {
+    margin-top: -3px;
+}
 
 
 
-/* Last section xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-*/
+
+/* media section xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
 @media screen and (max-width: 900px) {
 
     #hero,
