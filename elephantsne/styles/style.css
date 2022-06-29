@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&family=Raleway:wght@500&display=swap');
+
+#content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: white;
+    font-family: "Noto Sans Display", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    color: white;
+    background-color: #6a8d73;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    color: #6a8d73;
+    background-color: white;
+}
+
+#logo-link {
+    justify-self: center;
+    align-self: center;
+}
+
+.logo {
+    width: 80px;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+footer {
+    color: white;
+    background-color: #6a8d73;
+    padding: 25px 50px;
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer h3 a:hover {
+    text-decoration: none;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: white;
+    color: #6a8d73;
+}
+
+
+
+footer .social img {
+    padding-top: 15px;
+}
