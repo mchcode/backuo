@@ -38,6 +38,11 @@ nav a:hover {
     background-color: white;
 }
 
+active {
+    color: #6a8d73;
+    background-color:white;
+}
+
 #logo-link {
     justify-self: center;
     align-self: center;
