@@ -38,7 +38,7 @@ nav a:hover {
     background-color: white;
 }
 
-active {
+.active {
     color: #6a8d73;
     background-color:white;
 }
