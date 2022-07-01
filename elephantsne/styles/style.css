@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&family=Raleway:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 #content {
     max-width: 1200px;
@@ -7,7 +7,7 @@
 
 body {
     background-color: white;
-    font-family: "Noto Sans Display", Helvetica, sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
