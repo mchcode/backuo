@@ -20,6 +20,7 @@ h1, h2, h3, h4 {
 
 h1, h2 {
     text-align: center;
+    margin-bottom: -15px; 
 }
 
 header {
@@ -70,16 +71,55 @@ nav a:hover {
 .megafauna{
     width: 100%;
 }
-
+/*
 .msg, .msg3, .msg4, .msg5, .msg8 {
     margin-left: 10%;
 width: 80%;
+} */
+
+.msg h1 {
+    margin-bottom: -45px;
 }
+.msg, .msg3, .msg4, .msg5, .msg8 {
+   grid-column: 2/10; 
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.smilodon1 {
+    margin-bottom: -300px;;
+}
+.camel {
+    margin-top: -50px;
+    margin-bottom: -80px;
+margin-left: 80%;
+}
+
+.sloth {
+    margin-left: 60px;
+    margin-top:-5px;
+}
+
+.beiber {
+    margin-top: -260px;
+    margin-left: 526px;
+}
+
 #background {
-    display: flex;
-    justify-content: space-around;
-    height: 300px;
-    width: 100%;
+width:100%;
+z-index: -1;
+margin-bottom: -260px;;
+
+    height: 340px;
+    background-color: #7e1023;
+}
+
+#background2 {
+width: 1400px;
+    height: 500px;
     background-color: #7e1023;
 }
 
