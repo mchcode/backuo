@@ -13,14 +13,18 @@ body {
     padding: 0;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: Ubuntu, Arial, sans-serif;
-    color:#053b06;
+    color: #053b06;
 }
 
-h1, h2 {
+h1,
+h2 {
     text-align: center;
-    margin-bottom: -15px; 
+    margin-bottom: -15px;
 }
 
 header {
@@ -33,7 +37,6 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
-
 }
 
 nav a {
@@ -47,12 +50,12 @@ nav a:hover {
     color: #6a8d73;
     background-color: white;
 }
-
+/*
 .active {
     color: #6a8d73;
-    background-color:white;
+    background-color: white;
 }
-
+*/
 #logo-link {
     justify-self: center;
     align-self: center;
@@ -68,20 +71,16 @@ nav a:hover {
     padding-top: 10px;
 }
 
-.megafauna{
+.megafauna {
     width: 100%;
 }
-/*
-.msg, .msg3, .msg4, .msg5, .msg8 {
-    margin-left: 10%;
-width: 80%;
-} */
 
-.msg h1 {
-    margin-bottom: -45px;
-}
-.msg, .msg3, .msg4, .msg5, .msg8 {
-   grid-column: 2/10; 
+.msg,
+.msg3,
+.msg4,
+.msg5,
+.msg8 {
+    grid-column: 2/10;
 }
 
 main {
@@ -90,17 +89,20 @@ main {
 }
 
 .smilodon1 {
-    margin-bottom: -300px;;
+    margin-top: 33px;
+    margin-right: 10px;
+    float: left;
 }
+
 .camel {
     margin-top: -50px;
     margin-bottom: -80px;
-margin-left: 80%;
+    margin-left: 80%;
 }
 
 .sloth {
     margin-left: 60px;
-    margin-top:-5px;
+    margin-top: -5px;
 }
 
 .beiber {
@@ -109,16 +111,15 @@ margin-left: 80%;
 }
 
 #background {
-width:100%;
-z-index: -1;
-margin-bottom: -260px;;
-
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -260px;
     height: 340px;
     background-color: #7e1023;
 }
 
 #background2 {
-width: 1400px;
+    width: 1400px;
     height: 500px;
     background-color: #7e1023;
 }
@@ -150,8 +151,6 @@ footer a:hover {
     background-color: white;
     color: #6a8d73;
 }
-
-
 
 footer .social img {
     padding-top: 15px;
