@@ -18,7 +18,7 @@ h2,
 h3,
 h4 {
     font-family: Ubuntu, Arial, sans-serif;
-    color: #053b06;
+    color: Black;
 }
 
 h1,
@@ -31,7 +31,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     color: white;
-    background-color: #6a8d73;
+    background-color: #3e8e41;
 }
 
 nav {
@@ -47,7 +47,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #6a8d73;
+    color: #3b721d;
     background-color: white;
 }
 /*
@@ -143,21 +143,21 @@ color:white;
 
   .anbutton {
     padding: 15px 25px;
-    font-size: 24px;
+    font-size: 26px;
     text-align: center;
     cursor: pointer;
     outline: none;
     color: #fff;
-    background-color: #6a8d73;
+    background-color: #3e8e41;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
   }
   
-  .anbutton:hover {background-color: #3e8e41}
+  .anbutton:hover {background-color: #3b721d}
   
   .anbutton:active {
-    background-color: #3e8e41;
+    background-color: #3b721d;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
@@ -165,7 +165,7 @@ color:white;
 
 footer {
     color: white;
-    background-color: #6a8d73;
+    background-color: #3e8e41;
     padding: 25px 50px;
     margin-top: 130px;
     display: flex;
@@ -188,7 +188,8 @@ footer a {
 
 footer a:hover {
     background-color: white;
-    color: #6a8d73;
+    padding: 10px;
+    color:#3b721d;
 }
 
 footer .social img {
