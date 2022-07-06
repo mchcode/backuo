@@ -159,26 +159,32 @@ main {
 
 /*page two xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 .landscape {
-width: 100%;
+    width: 100%;
 
-} 
-
- .beringia {
-    float:right;
-    margin-top: 30px;
-  }
-
-.american_lion {
-    float:left;
-    margin-top: 5px;
 }
 
-    .plesiosaurus {
-float: right
-    }
-    .ice-age_namerica {
-        float: left;
-    }
+.beringia {
+    float: right;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.american_lion {
+    float: left;
+    margin-top: 5px;
+    margin-right: 7px;
+}
+
+.plesiosaurus {
+    float: right;
+    margin-top: -7px;
+}
+
+.ice-age_namerica {
+    float: right;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
 
 /*page three xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 .map {
