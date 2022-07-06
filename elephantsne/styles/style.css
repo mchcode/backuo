@@ -74,6 +74,8 @@ footer a:hover {
     background-color: white;
     padding: 10px;
     color: #3b721d;
+    border-radius: 10px;
+
 }
 
 footer .social img {
