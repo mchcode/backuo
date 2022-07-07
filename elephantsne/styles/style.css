@@ -209,6 +209,29 @@ main {
 }
 
 /*contact me xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+.contactpic {
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+
+#background3 {
+    height: 700px;
+    color: white;
+    background-color: #7e1023;
+    grid-column: 1/11;
+    grid-row: 1/4;
+}
+
+.msg9 {
+color: white;
+    grid-column: 7/11;
+    grid-row: 1/4;
+    padding-right: 5px;
+} 
+
+
+
 .anbutton {
     padding: 15px 25px;
     font-size: 26px;
