@@ -193,56 +193,91 @@ main {
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-}  
+}
+
 #hero-img {
     width: 100%;
 }
+
 #hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
 }
+
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
 }
+
 #hero h3 {
     text-align: center;
     margin-top: 180px;
-    color:white;
+    color: white;
 }
 
 .msg5 {
 
-    grid-column: 1/11;
-grid-row: 1;
-    text-align: center;   
+    grid-column: 2/10;
+    grid-row: 1;
+    text-align: center;
+}
+
+.tusker {
+    float: right;
 }
 
 #background2 {
     width: 100%;
-    height: 500px;
+    height: 800px;
     background-color: #7e1023;
-    grid-column: 1/11;
+    grid-column: 2/10;
     grid-row: 2;
+    border: 10px solid #053b06;
+    border-radius: 1em;
 }
 
 .comparison {
-
-grid-row: 3;
+    grid-row: 2;
+    grid-column: 4/8; 
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    z-index: 2;
 }
 
 .msg6 {
-    grid-row: 4;
+    grid-row: 2;
+    grid-column: 2/5;
+    margin-top: 110px;
+    margin-left: 50px;
+    color: white;
+}
+.msg6 h3 {
+    color: floralwhite;
 }
 .msg7 {
-    grid-row: 4;
-}
-.mg8 {
-    grid-row: 5;
+    grid-row: 2;
+    grid-column: 7/10;
+    margin-top: 110px;
+    margin-right: 50px;
+    color:lightcyan;
 }
 
+.msg7 h3 {
+    text-align: right;
+color: lightcyan;
+}
+
+.mg8 {
+    grid-row: 4;
+}
 .hunting {
-    grid-row: 5;
+    grid-row: 4;
+    float: right;
+    margin-top: 25px;
+    padding-left: 20px;
 }
 
 
