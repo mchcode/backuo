@@ -219,7 +219,7 @@ main {
 
     grid-column: 2/10;
     grid-row: 1;
-    text-align: center;
+    text-align: left;
 }
 
 .tusker {
