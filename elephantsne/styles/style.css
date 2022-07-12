@@ -256,7 +256,7 @@ main {
     grid-column: 2/5;
     margin-top: 120px;
     margin-left: 50px;
-    color: white;
+    color: floralwhite;
 }
 .msg6 h3 {
     color: floralwhite;
@@ -266,12 +266,12 @@ main {
     grid-column: 7/10;
     margin-top: 120px;
     margin-right: 50px;
-    color:lightcyan;
+    color:floralwhite;
 }
 
 .msg7 h3 {
     text-align: right;
-color: lightcyan;
+color: floralwhite;
 }
 
 .mg8 {
