@@ -184,8 +184,8 @@ main {
 
 .ice-age_namerica {
     float: right;
-    margin-top: 6px;
-    margin-bottom: 10px;
+    margin-top: 110px;
+    margin-bottom: 0px;
 }
 
 /*page three xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
@@ -257,8 +257,9 @@ main {
 
 .miocene {
     float: left;
-    margin-top: 12px;
+    margin-top: 22px;
     margin-right: 10px;
+    margin-bottom: 30px;
 
 }
 
