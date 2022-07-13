@@ -241,7 +241,7 @@ main {
 .tusker {
     grid-row: 2;
     float: left;
-    margin-top: 75px;
+    margin-top: 55px;
     margin-left: 10%;
     border-radius: 10px;
 }
@@ -249,7 +249,7 @@ main {
 .stego {
     grid-row: 2;
     float: right;
-    margin-top: 75px;
+    margin-top: 55px;
     margin-right: 10%;
 
     border-radius: 10px;
