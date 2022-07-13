@@ -225,30 +225,33 @@ main {
 
 
 #background2 {
-    width: 100%;
-    height: 300px;
+    width: 90%;
+    height: 280px;
     background-color: #7e1023;
     grid-column: 2/10;
     grid-row: 2;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 30px;
     border: 10px solid #053b06;
     border-radius: 1em;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .tusker {
     grid-row: 2;
     float: left;
-    margin-top: 55px;
-    margin-left: 80px;
+    margin-top: 75px;
+    margin-left: 10%;
     border-radius: 10px;
 }
 
 .stego {
     grid-row: 2;
     float: right;
-    margin-top: 55px;
-    margin-right: 65px;
+    margin-top: 75px;
+    margin-right: 10%;
+
     border-radius: 10px;
 }
 
@@ -277,7 +280,7 @@ main {
     width: 100%;
     height: 960px;
     background-color: #7e1023;
-    margin-bottom: 60px;
+  margin-bottom: 60px;
     border: 10px solid #053b06;
     border-radius: 1em;
 }
@@ -301,7 +304,7 @@ main {
 */
 .comparison {
     margin-top:2x;
-    margin-left: 62px;
+    margin-left: 60px;
     margin-bottom: -360px;
     width: 90%;
 
@@ -312,7 +315,7 @@ main {
 .msg6 {
 
     width: 400px;
-    margin-top: 350px;
+    margin-top: 365px;
     margin-right: 60px;
     margin-left: 50px;
     color: floralwhite;
@@ -325,7 +328,7 @@ main {
 
 .msg7 {
     width: 400px;
-    margin-top: 350px;
+    margin-top: 365px;
     margin-right: 50px;
     color: floralwhite;
 }
