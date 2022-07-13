@@ -202,7 +202,7 @@ main {
 #hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 
 #hero-msg {
@@ -221,7 +221,6 @@ main {
     grid-column: 2/10;
     grid-row: 1;
     text-align: left;
-    margin-bottom: 60px;
 }
 
 
@@ -231,8 +230,8 @@ main {
     background-color: #7e1023;
     grid-column: 2/10;
     grid-row: 2;
-    margin-top: 30px;
-    margin-bottom: 0px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     border: 10px solid #053b06;
     border-radius: 1em;
 }
@@ -260,10 +259,6 @@ main {
 
 }
 
-
-
-
-
 .iceage {
     float: right;
     margin-top: 5px;
@@ -273,57 +268,72 @@ main {
 
 .archie {
     float: right;
-    margin-top: 6px;
-    grid-row: 7;
+    margin-top: 9px;
+    grid-row: 9;
 }
 
-
-#background3 {
+.flex-container {
+    display: flex;
     width: 100%;
-    height: 920px;
+    height: 960px;
     background-color: #7e1023;
-    grid-column: 2/10;
-grid-row: 3;
     margin-bottom: 60px;
     border: 10px solid #053b06;
     border-radius: 1em;
 }
 
-.comparison {
-
-    grid-column: 4/8;
-    grid-row: 2;
-    display: block;
-    margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
+/* .flex-container > div {
+    background-color: #7e1023;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+#background3 {
     width: 100%;
+    height: 920px;
+    background-color: #7e1023;
+    margin-bottom: 60px;
+    border: 10px solid #053b06;
+    border-radius: 1em;
+}
+*/
+.comparison {
+    margin-top:2x;
+    margin-left: 62px;
+    margin-bottom: -360px;
+    width: 90%;
+
+    border-radius:20px;
     z-index: 2;
 }
 
 .msg6 {
 
-    grid-column: 2/5;
-    margin-top: 120px;
+    width: 400px;
+    margin-top: 350px;
+    margin-right: 60px;
     margin-left: 50px;
     color: floralwhite;
 }
 
 .msg6 h3 {
     color: floralwhite;
+    margin-bottom: -10px;
 }
 
 .msg7 {
-
-    grid-column: 7/10;
-    margin-top: 120px;
+    width: 400px;
+    margin-top: 350px;
     margin-right: 50px;
     color: floralwhite;
 }
 
 .msg7 h3 {
-    text-align: right;
+    text-align: left;
     color: floralwhite;
+    margin-bottom: -10px;
 }
 
 .mg8 {}
