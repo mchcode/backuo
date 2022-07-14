@@ -404,3 +404,21 @@ h5 {
     font-size: 30px;
     font-weight: bold;
 }
+
+.megafauna {
+   max-height: 100px;
+   max-width:300px 
+}
+.landscape {
+    max-height: 100px;
+    max-width:300px 
+}
+.distrb {
+    max-height: 100px;
+    max-width:300px 
+}
+.comparison {
+    max-height: 100px;
+    max-width:300px  
+}
+
