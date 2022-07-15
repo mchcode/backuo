@@ -120,7 +120,7 @@ main {
 .msg4,
 .msg5,
 .msg8 {
-    grid-column: 2/10;
+grid-column: 2/10;
 }
 
 /*home page xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
@@ -384,26 +384,28 @@ main {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
-
-#hero-img {
-    width: 100%;
-}
-
 /* credits xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-ul.no-bullets {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 
-li { 
-    display: inline-block;
-    width: 100%;
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 60% 10%;
+  }
+  .grid-item {
+    border: 3px solid black;
+    padding: 20px;
+    font-size: 18px;
+    text-align: left;
   }
 h5 {
     font-size: 30px;
     font-weight: bold;
 }
+
+
+
+
+
+
 
 .megafauna {
    max-height: 100px;
@@ -413,12 +415,14 @@ h5 {
     max-height: 100px;
     max-width:300px 
 }
-.distrb {
+.map {
+grid-column: 1;
+grid-row: 15;
     max-height: 100px;
-    max-width:300px 
+    max-width:2500px 
 }
 .comparison {
     max-height: 100px;
-    max-width:300px  
+    max-width:300px; 
 }
 
