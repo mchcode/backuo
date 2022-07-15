@@ -252,7 +252,7 @@ grid-column: 2/10;
 
 .miocene {
     float: left;
-    margin-top: 22px;
+    margin-top: 0px;
     margin-right: 10px;
     margin-bottom: 30px;
 
@@ -299,7 +299,7 @@ grid-column: 2/10;
 }
 */
 .comparison {
-    margin-top: 2x;
+    margin-top: 2px;
     margin-left: 60px;
     margin-bottom: -360px;
     width: 90%;
@@ -408,22 +408,7 @@ h5 {
 
 
 
-.megafauna {
-   max-height: 100px;
-   max-width:300px 
-}
-.landscape {
-    max-height: 100px;
-    max-width:300px 
-}
-.map {
-grid-column: 1;
-grid-row: 15;
-    max-height: 100px;
-    max-width:2500px 
-}
-.comparison {
-    max-height: 100px;
-    max-width:300px; 
-}
+
+
+
 
