@@ -532,6 +532,21 @@ textarea {
     height: 5em;
 }
 
+#feedback {
+    background-color: #396E94;
+    /*  position: absolute;*/
+    color: white;
+    font-size: 25px;
+    border: 10px solid #A84C11;
+    border-radius: 1em;
+    grid-column: 5/10;
+    grid-row: 1/2;
+    padding: 15px 1px 5px 25px;
+    margin-top: -600px;
+    height: 80px;
+    /* make this element invisible until we are ready for it */
+    display: none;
+}
 .button {
     /* Align buttons with the text fields */
 
@@ -550,21 +565,7 @@ button {
     font-size: 20px;
 }
 
-#feedback {
-    background-color: #396E94;
-    /*  position: absolute;*/
-    color: white;
-    font-size: 25px;
-    border: 10px solid #A84C11;
-    border-radius: 1em;
-    grid-column: 5/10;
-    grid-row: 1/2;
-    padding: 15px 1px 5px 25px;
-    margin-top: -600px;
-    height: 80px;
-    /* make this element invisible until we are ready for it */
-    display: none;
-}
+
 
 /*.moveDown {
     margin-top: 3em;
