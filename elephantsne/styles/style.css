@@ -361,7 +361,8 @@ main {
 /*contact me xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 .contactpic {
     grid-column: 1/4;
-    grid-row: 1/4;
+    grid-row: 1;
+    margin-top: 250PX;
 }
 
 #background4 {
@@ -374,12 +375,13 @@ main {
 }
 
 .msg9 {
-    color: white;
-    grid-column: 1;
-    grid-row: 1/2;
-    margin-top: 8px;
-    margin-left: 10px;
-    margin-right: 50px;
+    color: floralwhite;
+    grid-column: 1/9;
+    grid-row: 1;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+    font-size: 25px;
 
 }
 
@@ -418,6 +420,7 @@ label {
     display: inline-block;
     width: 90px;
     text-align: right;
+    margin-bottom: 4px;
 }
 
 input,
@@ -449,16 +452,18 @@ textarea {
 }
 
 #feedback {
-    background-color: #396E94;
+    background-color: #3e8e41;
     /* position: absolute; */
     color: white;
     font-size: 25px;
-    border: 10px solid #A84C11;
+   text-align: center;
+    border: 10px solid #053b06;
     border-radius: 1em;
-    grid-column: 1;
-    grid-row: 3;
-    padding: 15px 1px 5px 25px;
-    margin-top: 0px;
+    grid-column: 1/8;
+    grid-row: 1;
+    padding: 15px 0px 0px 0px;
+    margin-top: 300px;
+    margin-left: 50px;
     height: 80px;
     /* make this element invisible until we are ready for it */
     display: none;
@@ -476,9 +481,9 @@ button {
     background: #3e8e41;
     color: white;
     padding: 15px 15px;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
-    border: 8px solid #053b06;
+    border: 6px solid #053b06;
     border-radius: 15px;
     box-shadow: 0 9px #999;
     cursor: pointer;
