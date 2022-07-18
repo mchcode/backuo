@@ -375,8 +375,8 @@ main {
 
 .msg9 {
     color: white;
-    grid-column: 9/11;
-    grid-row: 1/4;
+    grid-column: 1;
+    grid-row: 1/2;
     margin-top: 8px;
     margin-left: 10px;
     margin-right: 50px;
@@ -389,8 +389,8 @@ form {
     width: 300px;
     height: 380px;
     grid-column: 9/11;
-    grid-row: 3;
-    margin-top: 0px;
+    grid-row: 1;
+    margin-top: 40px;
     margin-bottom: 25px;
     margin-right: 40px;
     /* Form outline */
@@ -464,26 +464,6 @@ textarea {
     display: none;
 }
 
-
-
-
-
-.button {
-    /* Align buttons with the text fields */
-
-    /* same size as the label elements */
-
-
-
-
-
-
-
-
-
-
-}
-
 button {
     /* This extra margin represent roughly the same space as the space
            between the labels and their text fields */
@@ -491,14 +471,14 @@ button {
     grid-row: 4;
     height: 100px;
     width: 190px;
-    margin-top:-210px;
-    margin-right: 39px;
+    margin-top:40px;
+    margin-right: 0px;
     background: #3e8e41;
     color: white;
     padding: 15px 15px;
     font-size: 30px;
     text-align: center;
-    border: 4px solid #053b06;
+    border: 8px solid #053b06;
     border-radius: 15px;
     box-shadow: 0 9px #999;
     cursor: pointer;
