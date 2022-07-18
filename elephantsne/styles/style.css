@@ -504,7 +504,7 @@ button:hover {
     background-color: #3b721d
 }
 
-credits xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */ .grid-container {
+/*credits xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */ .grid-container {
     display: grid;
     grid-template-columns: 30% 60% 10%;
     margin-top: 30px;
