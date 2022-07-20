@@ -131,8 +131,9 @@ main {
 }
 
 .smilodon1 {
-    margin-top: 33px;
+    margin-top: 43px;
     margin-right: 15px;
+    margin-bottom: 40px;
     float: left;
 }
 
@@ -186,11 +187,12 @@ main {
     float: right;
     margin-top: 30px;
     margin-left: 15px;
+    margin-bottom:20px;
 }
 
 .american_lion {
     float: left;
-    margin-top: 15px;
+    margin-top: 9px;
     margin-right: 15px;
 }
 
