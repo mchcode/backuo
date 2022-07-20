@@ -507,10 +507,12 @@ button:hover {
     background-color: #3b721d
 }
 
-/*credits xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */ .grid-container {
+/*credits xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */ 
+.grid-container {
     display: grid;
     grid-template-columns: 30% 60% 10%;
     margin-top: 30px;
+    border: 3px solid black;
 }
 
 .grid-item {
@@ -523,4 +525,5 @@ button:hover {
 h5 {
     font-size: 30px;
     font-weight: bold;
+    text-align: center;
 }
